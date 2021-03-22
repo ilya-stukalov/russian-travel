@@ -1,0 +1,6 @@
+
+.cover__background {
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
