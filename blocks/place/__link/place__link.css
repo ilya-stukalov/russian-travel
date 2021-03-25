@@ -7,4 +7,11 @@
   letter-spacing: 0em;
   text-align: left;
   margin: 0;
+  color: #FFFFFF;
 }
+
+.place__link:hover {
+  opacity: 0.5;
+  transition: 2s;
+}
+
