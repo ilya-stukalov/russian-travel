@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  max-width: 90%;
+  width: 90.625%;
   margin: 92px auto;
 }
 
@@ -13,14 +13,16 @@
   }
 }
 
-@media screen and (min-width: 425px) and (max-width:767px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .intro {
-    margin: 64px auto;
-  }
+    margin: 88px auto;
+    width: 93.75%;
+  }   
 }
 
-@media screen and (max-width: 424px) {
+@media screen and (max-width:767px) {
   .intro {
     margin: 64px auto;
+    width: 90%;
   }
 }
