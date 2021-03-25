@@ -1,5 +1,35 @@
 
 .place__image {
-  width: 460px;
-  height: 460px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+
+@media screen and (min-width: 1280px) {
+  .place__image {
+    /* max-width: 460px; */
+  /*   max-height: 460px; */
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place__image {
+/*     max-width: 340px; */
+    /* max-height: 340px; */
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width:767px) {
+  .place__image {
+/*     max-width: 340px; */
+    /* max-height: 340px; */
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__image {
+  /*   max-width: 320px; */
+  /*   max-height: 320px; */
+  }
 }
