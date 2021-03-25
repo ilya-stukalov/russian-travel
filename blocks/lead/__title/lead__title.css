@@ -8,14 +8,13 @@
   letter-spacing: 0em;
   font-style: normal;
   font-weight: 900;
-  width: 77.6%;
+  width: 720px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .lead__title {
     font-size: 96px;
     line-height: 100px;
-    width: 93.75%;
     margin: 0 0 32px;
   }
 }
