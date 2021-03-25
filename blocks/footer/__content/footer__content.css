@@ -1,11 +1,10 @@
 
 .footer__content {
-		max-width: 100%;
+  max-width: 100%;
 }
 
 @media screen and (max-width:767px) {
-		.footer__content {
-			margin-bottom: 48px;
-			
-		}
-	}
+  .footer__content {
+    margin-bottom: 48px;
+  }
+}

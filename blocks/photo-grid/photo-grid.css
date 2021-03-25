@@ -1,36 +1,23 @@
 
 .photo-grid {
   width: 90.625%;
-  display: grid;
   margin: 0 auto;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
-  grid-gap: 14px;
-  justify-content: center;
-  align-content: center;
 }
 
 @media screen and (min-width: 1280px) {
   .photo-grid {
     width: 1184px;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 16px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .photo-grid {
     width: 93.75%;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 16px;
-    
   }
 }
 
 @media screen and (max-width:767px) {
   .photo-grid {
     width: 90%;
-    grid-template-columns: 1fr;
-    grid-gap: 12px;
   }
 }
