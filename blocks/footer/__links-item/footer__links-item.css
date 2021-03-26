@@ -7,12 +7,6 @@
     margin: 0;
 }
 
-
-.footer__links-item:hover {
-    opacity: 0.5;
-    transition: 2s;
-}
-
 @media screen and (max-width:767px) {
     .footer__links-item {
         margin: 0 0 18px;
