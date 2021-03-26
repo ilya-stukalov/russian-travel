@@ -10,6 +10,7 @@
 @import url('./../blocks/header/__links/header__links.css');
 @import url('./../blocks/header/__links-item/header__links-item.css');
 @import url('./../blocks/header/__lang-link/header__lang-link.css');
+@import url('./../blocks/header/__lang-link/_russian-lang/header__lang-link_russian.css');
 
 
 @import url('./../blocks/lead/lead.css');
